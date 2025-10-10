@@ -1,0 +1,67 @@
+{
+    "version": 1,
+    "name": "PllayerInput",
+    "maps": [
+        {
+            "name": "ActionPlayer",
+            "id": "ddbf28dc-9503-41a8-8118-b6c62da3aa41",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "329162cc-818a-4561-b331-3bcc434be414",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "de460de0-e0e9-4ec4-9deb-9d58cfe74a5f",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fb9bce55-8a64-4b0d-a57b-d7b945b48634",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c02b16ea-7bb9-40a4-a7ea-3b59f1c7335d",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Controller",
+            "bindingGroup": "Controller",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
