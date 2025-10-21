@@ -179,7 +179,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.42352942, g: 0.09411764, b: 0.41852403, a: 1}
   m_FlipX: 0
@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 1252968608}
   - component: {fileID: 1252968607}
   - component: {fileID: 1252968606}
+  - component: {fileID: 1252968609}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -368,6 +369,8 @@ MonoBehaviour:
   rb: {fileID: 1252968606}
   speed: 8
   pointer: {fileID: 1126026709}
+  hasGun: 1
+  gun: {fileID: 1252968609}
 --- !u!114 &1252968608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +401,23 @@ MonoBehaviour:
   m_DefaultActionMap: ActionPlayer
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1252968609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252968603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ffb53374244ef042bf8ae75c1456218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  projectile: {fileID: 437444474966169723, guid: 41323b698abf1a247bbce7bd0eb38528, type: 3}
+  usesLeft: 0
+  rarity: 0
+  pointer: {fileID: 0}
 --- !u!1 &1424906863
 GameObject:
   m_ObjectHideFlags: 0

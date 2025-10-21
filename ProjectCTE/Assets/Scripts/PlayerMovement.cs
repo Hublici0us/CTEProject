@@ -10,7 +10,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 direction;
     public float speed;
     public GameObject pointer;
-    
+    public bool hasGun = true;
+    [SerializeField] ShootingWeapons gun;
+
     private void OnMove(InputValue i)
     {
         direction = i.Get<Vector2>();
@@ -29,6 +31,16 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+    }
+
+    private void OnFire(InputValue i)
+    {
+        if (hasGun)
+        {
+            gun.ShootProjectile(pointer);
+
+
+        }
     }
 
     private void Update()
