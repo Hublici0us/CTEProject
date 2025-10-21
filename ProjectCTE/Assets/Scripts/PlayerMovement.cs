@@ -21,19 +21,11 @@ public class PlayerMovement : MonoBehaviour
         Vector2 dest = i.Get<Vector2>();
         if (dest != Vector2.zero)
         {
-            Debug.Log("x = " + dest.x + " y = " + dest.y);
-            Debug.Log("Atan = " + Mathf.Atan(dest.y / dest.x) + " Degrees = " + Mathf.Atan(dest.y / dest.x) * Mathf.Rad2Deg);
 
-            if (dest.x < 0)
-            {
-                pointer.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan(dest.y / dest.x) * Mathf.Rad2Deg * Mathf.Sign(-dest.y));
+            
+            pointer.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(dest.y, dest.x) * Mathf.Rad2Deg);
 
-            }
-            else
-            {
-                pointer.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan(dest.y / dest.x) * Mathf.Rad2Deg);
-
-            }
+            
 
         }
 
@@ -42,5 +34,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         rb.velocity = direction * speed;
+
+       
     }
 }
