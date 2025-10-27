@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ShootingWeapons : MonoBehaviour
 {
-    public Image image;
+    public Sprite image;
     public GameObject projectile;
     public int usesLeft;
     public double rarity;
@@ -26,5 +26,15 @@ public class ShootingWeapons : MonoBehaviour
     public void ShootProjectile(GameObject pointer)
     {
         Instantiate(projectile, transform.position, pointer.transform.localRotation);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (TryGetComponent(out CollectScript weapon))
+        {
+            image = weapon.image;
+
+        }
     }
 }
