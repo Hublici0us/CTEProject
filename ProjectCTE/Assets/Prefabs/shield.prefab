@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -7721112298732427791}
   m_Layer: 0
   m_Name: shield
-  m_TagString: Untagged
+  m_TagString: Pickupable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,3 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e7ccb1e037de5747a20f0a3f93c8b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireRate: 0
+  uses: 0
+  image: {fileID: 0}
+  projectile: {fileID: 0}

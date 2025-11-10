@@ -10,6 +10,11 @@ public class CollectScript : MonoBehaviour
     public Sprite image;
     public GameObject projectile;
 
+
+    private void Start()
+    {
+        
+    }
     void Update()
     {
         

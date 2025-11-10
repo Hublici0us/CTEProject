@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ShootingWeapons : MonoBehaviour
 {
     public Sprite image;
-    public GameObject projectile;
+    public CollectScript weaponEquipped;
+    public GameObject weaponProjectile;
     public int usesLeft;
     public double rarity;
     public GameObject pointer;
@@ -20,12 +22,16 @@ public class ShootingWeapons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        while (weaponEquipped != null)
+        {
+            image = weaponEquipped.image;
+            weaponProjectile = weaponEquipped.projectile;
+        }
     }
 
     public void ShootProjectile(GameObject pointer)
     {
-        Instantiate(projectile, transform.position, pointer.transform.localRotation);
+        Instantiate(weaponProjectile, transform.position, pointer.transform.localRotation);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -33,7 +39,10 @@ public class ShootingWeapons : MonoBehaviour
 
         if (TryGetComponent(out CollectScript weapon))
         {
-            image = weapon.image;
+            if (weapon != null)
+            {
+                weaponEquipped = weapon;
+            }
 
         }
     }
