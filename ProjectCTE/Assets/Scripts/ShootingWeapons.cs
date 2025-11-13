@@ -36,12 +36,15 @@ public class ShootingWeapons : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("object");
 
-        if (TryGetComponent(out CollectScript weapon))
+        if (collision.TryGetComponent<CollectScript>(out CollectScript weapon))
         {
-            if (weapon != null)
+            Debug.Log("weapon");
+            if (weaponEquipped == null)
             {
                 weaponEquipped = weapon;
+                Destroy(collision.gameObject);
             }
 
         }
