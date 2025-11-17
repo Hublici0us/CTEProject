@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnFire(InputValue i)
     {
-        if (gun.weaponEquipped != null)
+        if (gun.weaponProjectile != null)
         {
             {
                 gun.ShootProjectile(pointer);

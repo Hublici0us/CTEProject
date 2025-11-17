@@ -22,11 +22,7 @@ public class ShootingWeapons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while (weaponEquipped != null)
-        {
-            image = weaponEquipped.image;
-            weaponProjectile = weaponEquipped.projectile;
-        }
+        
     }
 
     public void ShootProjectile(GameObject pointer)
@@ -41,11 +37,11 @@ public class ShootingWeapons : MonoBehaviour
         if (collision.TryGetComponent<CollectScript>(out CollectScript weapon))
         {
             Debug.Log("weapon");
-            if (weaponEquipped == null)
-            {
-                weaponEquipped = weapon;
-                Destroy(collision.gameObject);
-            }
+            weaponEquipped = weapon;
+            image = weaponEquipped.image;
+            weaponProjectile = weaponEquipped.projectile;
+            Destroy(collision.gameObject);
+            
 
         }
     }
