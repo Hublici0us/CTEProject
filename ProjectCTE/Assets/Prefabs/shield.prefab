@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 0
-  uses: 0
+  uses: 3
   image: {fileID: 0}
   projectile: {fileID: 437444474966169723, guid: 41323b698abf1a247bbce7bd0eb38528, type: 3}
 --- !u!61 &-7279923794427339711

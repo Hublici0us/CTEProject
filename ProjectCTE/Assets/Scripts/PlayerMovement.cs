@@ -37,11 +37,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (gun.weaponProjectile != null)
         {
+            gun.ShootProjectile(pointer);
+
+            if (gun.usesLeft <= 0)
             {
-                gun.ShootProjectile(pointer);
+                gun.weaponProjectile = null;
+                gun.image = null;
             }
-
-
         }
     }
 

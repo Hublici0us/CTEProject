@@ -7,10 +7,8 @@ using UnityEngine.UI;
 public class ShootingWeapons : MonoBehaviour
 {
     public Sprite image;
-    public CollectScript weaponEquipped;
     public GameObject weaponProjectile;
     public int usesLeft;
-    public double rarity;
     public GameObject pointer;
 
     // Start is called before the first frame update
@@ -28,6 +26,7 @@ public class ShootingWeapons : MonoBehaviour
     public void ShootProjectile(GameObject pointer)
     {
         Instantiate(weaponProjectile, transform.position, pointer.transform.localRotation);
+        usesLeft--;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,9 +36,10 @@ public class ShootingWeapons : MonoBehaviour
         if (collision.TryGetComponent<CollectScript>(out CollectScript weapon))
         {
             Debug.Log("weapon");
-            weaponEquipped = weapon;
-            image = weaponEquipped.image;
-            weaponProjectile = weaponEquipped.projectile;
+            image = weapon.image;
+            usesLeft = weapon.uses;
+            weaponProjectile = weapon.projectile;
+            pointer.GetComponent<SpriteRenderer>().sprite = image;
             Destroy(collision.gameObject);
             
 

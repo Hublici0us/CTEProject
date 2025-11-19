@@ -1,0 +1,1649 @@
+fileFormatVersion: 2
+guid: d9fab56bcc3a55a4594cbbf66b02dd2e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MBG Weapon Pack_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 166
+        width: 12
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3057767240fae34eb29de6cd68d1e4d
+      internalID: -961934134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 166
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39324d6fbe09b04daee98d091a40e46
+      internalID: -1378739458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 166
+        width: 11
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685e9636f70bd1f4a889513338d25305
+      internalID: -100668280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 166
+        width: 16
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401783deb2a1a9742a43c008373093fb
+      internalID: -620979186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 166
+        width: 13
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d23a2281af9954c891f61a15df3d94
+      internalID: -355061923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 165
+        width: 12
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282f46130551247449495cfe459da3b9
+      internalID: 1445272458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 165
+        width: 27
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0c036f4730e5d41ac52ba64c677aa8
+      internalID: -1064074073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 167
+        width: 8
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5df3f0f6fcb794f996476f26bf88be
+      internalID: -1445363550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 165
+        width: 12
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ea4a754c9d36a4ebb25a3565afed31
+      internalID: 410388798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 155
+        width: 18
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a1644eb37bf024eb501d80c0a595aa
+      internalID: -1210805073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 155
+        width: 18
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ac8fa0df17f734798ea409c38b2e4d
+      internalID: 118810820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 158
+        width: 26
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adec3e51558a93e4aa47c81b68708155
+      internalID: -872545285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 155
+        width: 32
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02867be5d8d0a541a74ea200a8e1411
+      internalID: -2139042206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 157
+        width: 32
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4112cb0ed96514792f3a3e1ab1ff0f
+      internalID: 747883644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 29
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd858e804b17344e9a4ccf23112d690
+      internalID: 779407008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 152
+        width: 27
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc23f6f534c80954db581a28f3c89b41
+      internalID: -416934679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 146
+        width: 32
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515e936f605d9f847bc080cfd65011be
+      internalID: 1595338369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 141
+        width: 28
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d39281d9a980e4eb9edf335121dd9e
+      internalID: -1002903803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 146
+        width: 30
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b537bea15e2ac4aaef50e1fb4f78a7
+      internalID: -1807830257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 136
+        width: 32
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea3ace7e1b720f458be59da60f82797
+      internalID: 1181690905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_20
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 130
+        width: 28
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3268c41bf9452a642ae66e06a1385b5a
+      internalID: -533825400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 130
+        width: 24
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a17b17309e41394bb8303c4aa31c8a0
+      internalID: 1269418125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_22
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 135
+        width: 32
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8622e4ee93b5ed4682dde4e499d9570
+      internalID: -2085121411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 125
+        width: 29
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6682aaaa843fb9418b04de1d6fb79c3
+      internalID: 1012590366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 119
+        width: 28
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85388d3991978244a6cc3eaeb3b39e9
+      internalID: 1930557440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 118
+        width: 29
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37188bfcba8ec2499da49cb119db918
+      internalID: -1071347150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_26
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 117
+        width: 34
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb726c5abcb141468fe1f26f3b49c79
+      internalID: 2136700637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 32
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc65a8ae6e1daa4bac2260c656b9593
+      internalID: 1331820274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 109
+        width: 28
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c63c27a52e45b4abbb86f03dbb9616
+      internalID: 1677378497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 30
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca8a6b9c8ab98d458998f8acf5e6793
+      internalID: -1149153752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_30
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 99
+        width: 19
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9030c93c91822f34daee9f30a80d01df
+      internalID: 647010327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 107
+        width: 24
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c99be823e5243247ac4cc3bd68c8eb9
+      internalID: -1507687842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_32
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 98
+        width: 34
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385684c10b2c20449866304c1107ee84
+      internalID: 30021931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 95
+        width: 20
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4651ab6a48b5d1b4a91903e2c3663843
+      internalID: -2032525698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 94
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2957f5bc181c8ae419208de9ce979283
+      internalID: -1847905270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_35
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 97
+        width: 23
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46df4cd3d27e4654ea84660b50c997a8
+      internalID: 1301285322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 87
+        width: 21
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96ef1070c063e94ca22fcdeb86b1561
+      internalID: -1474738469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_37
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 89
+        width: 13
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5589aad70f69840866b77d5e2816c4
+      internalID: 1316368159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_38
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 87
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdba46dbd2de62c4fb65d0009126a042
+      internalID: 559656851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 85
+        width: 26
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1ead166e88a3949b58216bf0fee081
+      internalID: 1268889682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 78
+        width: 31
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8845a26810d8d43a1bb487c8123fba
+      internalID: -547361858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 80
+        width: 32
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555d7221ea7c59a4cada8000a16cd224
+      internalID: 1056634697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_42
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 78
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2e73b23ff4bfe40a5a75316ac4039f
+      internalID: 2044460715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_43
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 66
+        width: 21
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c90557b22c930a419cf8627bfa62d29
+      internalID: 941989919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 65
+        width: 32
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f8f30c82b426b45b58a8e46060ae14
+      internalID: 486165557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 63
+        width: 23
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a47e013cedcb81428ee00063be6a287
+      internalID: 1032512048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_46
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 73
+        width: 35
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34d3070bc93ada4f92ab219b273af33
+      internalID: -1174252747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_47
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 59
+        width: 27
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b79ce8a39eb049b58a73ae6fd0f3d
+      internalID: 2138029080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_48
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 52
+        width: 15
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9279bf0ff9526ed4f9b9f6c0ae745844
+      internalID: 1937597971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_49
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 61
+        width: 34
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4938098fb77c9b49a88b82e94f9a40a
+      internalID: -957270497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 51
+        width: 19
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91de605aa84328141b1c8ce40a37bc86
+      internalID: 14677546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_51
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 56
+        width: 19
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117c395588cbbdc409794e04ce1cb46c
+      internalID: 1156543137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_52
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 31
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f62b7f5ee5b1f04b9ab78b83a2b6d98
+      internalID: -578988128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_53
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 31
+        width: 10
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd639eef91404b4698baa473a76c2ed
+      internalID: 1462758533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_54
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 31
+        width: 10
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3131f05f88cfafc49a88072a0b4d315e
+      internalID: -1227774558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_55
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 32
+        width: 10
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f2fa53d916e2048b0dbecc3c408031
+      internalID: -764335408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_56
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 31
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50532047c7421af4eb13637742c801f6
+      internalID: -615469345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_57
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 32
+        width: 16
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33631aaa441ac6f4e8d9b201970158c5
+      internalID: 1126700316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_58
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 31
+        width: 24
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c15b4e82ffaca4499ee9e5aacfba1a
+      internalID: -622391969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_59
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 30
+        width: 19
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609d9f14aaf5aa543a9cc3668fd4e5d9
+      internalID: -1481740877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 21
+        width: 26
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d82a9aeb807ccf40b038366d364a89e
+      internalID: 678960414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_61
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 21
+        width: 24
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570476cf7e478e9439725293755d19d6
+      internalID: 626879358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_62
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 23
+        width: 28
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c77b4b13cc7c24385e7fb1c7ab7256
+      internalID: -1185501356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_63
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 23
+        width: 27
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138c5976cb4a60742b9205b4a2c4912f
+      internalID: 54410969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_64
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 10
+        width: 26
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61d5432d88771241a7d011bff4c48a9
+      internalID: 431396505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_65
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10
+        width: 25
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38228c3bfd2454749a866600cff5613b
+      internalID: -1509098239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_66
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 8
+        width: 21
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1220c49aae9603c40848d9c1c1ce6582
+      internalID: 2045815235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBG Weapon Pack_67
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 10
+        width: 32
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d89ee31eb381e4478aa8e12016fbd59
+      internalID: -418929714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MBG Weapon Pack_0: -961934134
+      MBG Weapon Pack_1: -1378739458
+      MBG Weapon Pack_10: 118810820
+      MBG Weapon Pack_11: -872545285
+      MBG Weapon Pack_12: -2139042206
+      MBG Weapon Pack_13: 747883644
+      MBG Weapon Pack_14: 779407008
+      MBG Weapon Pack_15: -416934679
+      MBG Weapon Pack_16: 1595338369
+      MBG Weapon Pack_17: -1002903803
+      MBG Weapon Pack_18: -1807830257
+      MBG Weapon Pack_19: 1181690905
+      MBG Weapon Pack_2: -100668280
+      MBG Weapon Pack_20: -533825400
+      MBG Weapon Pack_21: 1269418125
+      MBG Weapon Pack_22: -2085121411
+      MBG Weapon Pack_23: 1012590366
+      MBG Weapon Pack_24: 1930557440
+      MBG Weapon Pack_25: -1071347150
+      MBG Weapon Pack_26: 2136700637
+      MBG Weapon Pack_27: 1331820274
+      MBG Weapon Pack_28: 1677378497
+      MBG Weapon Pack_29: -1149153752
+      MBG Weapon Pack_3: -620979186
+      MBG Weapon Pack_30: 647010327
+      MBG Weapon Pack_31: -1507687842
+      MBG Weapon Pack_32: 30021931
+      MBG Weapon Pack_33: -2032525698
+      MBG Weapon Pack_34: -1847905270
+      MBG Weapon Pack_35: 1301285322
+      MBG Weapon Pack_36: -1474738469
+      MBG Weapon Pack_37: 1316368159
+      MBG Weapon Pack_38: 559656851
+      MBG Weapon Pack_39: 1268889682
+      MBG Weapon Pack_4: -355061923
+      MBG Weapon Pack_40: -547361858
+      MBG Weapon Pack_41: 1056634697
+      MBG Weapon Pack_42: 2044460715
+      MBG Weapon Pack_43: 941989919
+      MBG Weapon Pack_44: 486165557
+      MBG Weapon Pack_45: 1032512048
+      MBG Weapon Pack_46: -1174252747
+      MBG Weapon Pack_47: 2138029080
+      MBG Weapon Pack_48: 1937597971
+      MBG Weapon Pack_49: -957270497
+      MBG Weapon Pack_5: 1445272458
+      MBG Weapon Pack_50: 14677546
+      MBG Weapon Pack_51: 1156543137
+      MBG Weapon Pack_52: -578988128
+      MBG Weapon Pack_53: 1462758533
+      MBG Weapon Pack_54: -1227774558
+      MBG Weapon Pack_55: -764335408
+      MBG Weapon Pack_56: -615469345
+      MBG Weapon Pack_57: 1126700316
+      MBG Weapon Pack_58: -622391969
+      MBG Weapon Pack_59: -1481740877
+      MBG Weapon Pack_6: -1064074073
+      MBG Weapon Pack_60: 678960414
+      MBG Weapon Pack_61: 626879358
+      MBG Weapon Pack_62: -1185501356
+      MBG Weapon Pack_63: 54410969
+      MBG Weapon Pack_64: 431396505
+      MBG Weapon Pack_65: -1509098239
+      MBG Weapon Pack_66: 2045815235
+      MBG Weapon Pack_67: -418929714
+      MBG Weapon Pack_7: -1445363550
+      MBG Weapon Pack_8: 410388798
+      MBG Weapon Pack_9: -1210805073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
